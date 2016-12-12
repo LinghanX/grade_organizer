@@ -98,13 +98,15 @@ void searchInformation(string fileName){
                 string strs[11]; //could also use array;
                 int increment = 0;
                 for(int i = 0; i < line.size(); i++){
-                    if(line[i] == ',' || line[i] == string::npos){
+                    if(line[i] == ','){
                         strs[increment++] = candidate;
                         candidate = "";
                     } else {
                         candidate += line[i];
                     }
+                    strs[increment] = candidate;
                 }
+
                 studentName = strs[0];
                 studentId = strs[1];
                 yearInSchool = strs[2];

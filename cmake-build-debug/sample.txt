@@ -1,3 +1,3 @@
 Andrew C. Jung,368TT7,Junior,computer science,85.5,91.3,88.4,100,98.8,78.2,91.2
-Linghan Xing,TZ02801,Senior,computer Science,99.8,97.2,97.3,98.1,99.9,100,95.2
+Linghan Xing,TZ02801,Senior,computer science,99.8,97.2,97.3,98.1,99.9,100,95.2
 William Wang,TE29132,Sophomore,Information Technology,76.2,86.3,87.1,77.9,82.4,95.3,75.4
