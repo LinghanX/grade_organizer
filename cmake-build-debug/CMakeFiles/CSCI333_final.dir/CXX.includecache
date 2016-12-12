@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Linghan/Documents/FSU/CSCI333/final/FileReader.cpp
+FileReader.h
+/Users/Linghan/Documents/FSU/CSCI333/final/FileReader.h
+
+/Users/Linghan/Documents/FSU/CSCI333/final/FileReader.h
+
+/Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.cpp
+FileWriter.h
+/Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.h
+
+/Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.h
+
+/Users/Linghan/Documents/FSU/CSCI333/final/Student.cpp
+Student.h
+/Users/Linghan/Documents/FSU/CSCI333/final/Student.h
+iostream
+-
+iomanip
+-
+
+/Users/Linghan/Documents/FSU/CSCI333/final/Student.h
+string
+-
+
+/Users/Linghan/Documents/FSU/CSCI333/final/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+Student.h
+/Users/Linghan/Documents/FSU/CSCI333/final/Student.h
+
