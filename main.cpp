@@ -1,3 +1,31 @@
+/*
+ * This file is created in order to fulfill the course requirement of
+ *      `CSCI333 Object Oriented Programming using C++`
+ * from Framingham State University.
+ *
+ * Program description:
+ *
+ *      The program is designed for instructors to manage student
+ *      course information, including their name, ID, year,
+ *      department, exam scores and home word scores.
+ *
+ *      The program provides API for instructor to search through the
+ *      file and return all the relevant information in a formatted way.
+ *
+ *      Note that the search function here is CASE SENSITIVE.
+ *
+ *
+ * Program structure:
+ *
+ *      The program consists of a main function which handles user input
+ *      and interaction.
+ *
+ *      A student class is designed to handle student abstract data type.
+ *
+ * Student name: Linghan Xing
+ * Date created: Dec 13, 2016
+ */
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -39,11 +67,12 @@ int main() {
 void addInformation(string fileName){
     ofstream writeFile;
     writeFile.open(fileName, ios::app);
-    char whiteSpace[2];
     if(writeFile.good()){
         string studentName, studentId, yearInSchool, department;
         double midTerm, final, hw1, hw2, hw3, attendance, project;
         cout << "Please enter student\'s name." << endl;
+
+        // here, the first 'getline' eat unwanted blank space.
         getline(cin, studentName);
         getline(cin, studentName);
         cout << "Please enter student\'s student ID, school year." << endl;
@@ -76,7 +105,6 @@ void addInformation(string fileName){
     if(userResponse == 1){ addInformation(fileName); }
     writeFile.close();
 }
-
 void searchInformation(string fileName){
     cout << "Please input the keyword that you want to search." << endl;
     string keyword;
@@ -134,23 +162,3 @@ void searchInformation(string fileName){
         students[i].display();
     }
 }
-
-
-/**
- * 1. Ask user to input student's information that includes: name, midterm score, final score
- *    each homework score, attendance score, project score.
- * 2. Calculates exam average, homework average, overall numeric grade, letter grade.
- * 3. Write the file down to a txt.
- * 3. Allow searching
- *
- * Behavior:
- *      When first started, ask to enter a file name.
- *          if file exist,
- *              ask whether want to
- *                  add info,
- *                  or search info
- *                      if search
- *                          ask words to be searched
- *
- *
- */

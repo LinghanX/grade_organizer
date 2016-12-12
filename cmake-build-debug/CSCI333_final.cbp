@@ -82,18 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Linghan/Documents/FSU/CSCI333/final/FileReader.cpp">
-			<Option target="CSCI333_final"/>
-		</Unit>
-		<Unit filename="/Users/Linghan/Documents/FSU/CSCI333/final/FileReader.h">
-			<Option target="CSCI333_final"/>
-		</Unit>
-		<Unit filename="/Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.cpp">
-			<Option target="CSCI333_final"/>
-		</Unit>
-		<Unit filename="/Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.h">
-			<Option target="CSCI333_final"/>
-		</Unit>
 		<Unit filename="/Users/Linghan/Documents/FSU/CSCI333/final/Student.cpp">
 			<Option target="CSCI333_final"/>
 		</Unit>

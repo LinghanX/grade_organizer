@@ -4,8 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Linghan/Documents/FSU/CSCI333/final/FileReader.cpp" "/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles/CSCI333_final.dir/FileReader.cpp.o"
-  "/Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.cpp" "/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o"
   "/Users/Linghan/Documents/FSU/CSCI333/final/Student.cpp" "/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles/CSCI333_final.dir/Student.cpp.o"
   "/Users/Linghan/Documents/FSU/CSCI333/final/main.cpp" "/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles/CSCI333_final.dir/main.cpp.o"
   )

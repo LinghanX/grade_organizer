@@ -105,71 +105,19 @@ CMakeFiles/CSCI333_final.dir/Student.cpp.o.provides: CMakeFiles/CSCI333_final.di
 CMakeFiles/CSCI333_final.dir/Student.cpp.o.provides.build: CMakeFiles/CSCI333_final.dir/Student.cpp.o
 
 
-CMakeFiles/CSCI333_final.dir/FileReader.cpp.o: CMakeFiles/CSCI333_final.dir/flags.make
-CMakeFiles/CSCI333_final.dir/FileReader.cpp.o: ../FileReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CSCI333_final.dir/FileReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSCI333_final.dir/FileReader.cpp.o -c /Users/Linghan/Documents/FSU/CSCI333/final/FileReader.cpp
-
-CMakeFiles/CSCI333_final.dir/FileReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSCI333_final.dir/FileReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Linghan/Documents/FSU/CSCI333/final/FileReader.cpp > CMakeFiles/CSCI333_final.dir/FileReader.cpp.i
-
-CMakeFiles/CSCI333_final.dir/FileReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSCI333_final.dir/FileReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Linghan/Documents/FSU/CSCI333/final/FileReader.cpp -o CMakeFiles/CSCI333_final.dir/FileReader.cpp.s
-
-CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.requires:
-
-.PHONY : CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.requires
-
-CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.provides: CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.provides.build
-.PHONY : CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.provides
-
-CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.provides.build: CMakeFiles/CSCI333_final.dir/FileReader.cpp.o
-
-
-CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o: CMakeFiles/CSCI333_final.dir/flags.make
-CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o: ../FileWriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o -c /Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.cpp
-
-CMakeFiles/CSCI333_final.dir/FileWriter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSCI333_final.dir/FileWriter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.cpp > CMakeFiles/CSCI333_final.dir/FileWriter.cpp.i
-
-CMakeFiles/CSCI333_final.dir/FileWriter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSCI333_final.dir/FileWriter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Linghan/Documents/FSU/CSCI333/final/FileWriter.cpp -o CMakeFiles/CSCI333_final.dir/FileWriter.cpp.s
-
-CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.requires:
-
-.PHONY : CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.requires
-
-CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.provides: CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.provides.build
-.PHONY : CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.provides
-
-CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.provides.build: CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o
-
-
 # Object files for target CSCI333_final
 CSCI333_final_OBJECTS = \
 "CMakeFiles/CSCI333_final.dir/main.cpp.o" \
-"CMakeFiles/CSCI333_final.dir/Student.cpp.o" \
-"CMakeFiles/CSCI333_final.dir/FileReader.cpp.o" \
-"CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o"
+"CMakeFiles/CSCI333_final.dir/Student.cpp.o"
 
 # External object files for target CSCI333_final
 CSCI333_final_EXTERNAL_OBJECTS =
 
 CSCI333_final: CMakeFiles/CSCI333_final.dir/main.cpp.o
 CSCI333_final: CMakeFiles/CSCI333_final.dir/Student.cpp.o
-CSCI333_final: CMakeFiles/CSCI333_final.dir/FileReader.cpp.o
-CSCI333_final: CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o
 CSCI333_final: CMakeFiles/CSCI333_final.dir/build.make
 CSCI333_final: CMakeFiles/CSCI333_final.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CSCI333_final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Linghan/Documents/FSU/CSCI333/final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CSCI333_final"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CSCI333_final.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,8 +127,6 @@ CMakeFiles/CSCI333_final.dir/build: CSCI333_final
 
 CMakeFiles/CSCI333_final.dir/requires: CMakeFiles/CSCI333_final.dir/main.cpp.o.requires
 CMakeFiles/CSCI333_final.dir/requires: CMakeFiles/CSCI333_final.dir/Student.cpp.o.requires
-CMakeFiles/CSCI333_final.dir/requires: CMakeFiles/CSCI333_final.dir/FileReader.cpp.o.requires
-CMakeFiles/CSCI333_final.dir/requires: CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o.requires
 
 .PHONY : CMakeFiles/CSCI333_final.dir/requires
 

@@ -1,10 +1,5 @@
-//
-// Created by Linghan Xing on 12/6/16.
-//
-
 #ifndef CSCI333_FINAL_STUDENT_H
 #define CSCI333_FINAL_STUDENT_H
-
 
 #include <string>
 

@@ -67,7 +67,7 @@ void Student::display() {
     double examAverage = calcExamAverage();
     double hwAverage = calcHWAverage();
     std::cout << std::right;
-    std::cout << std::setw(12) << studentName << " |"
+    std::cout << std::setw(20) << studentName << " |"
               << std::setw(10) << studentId << " |"
               << std::setw(10) << yearInSchool << " |"
               << std::setw(25) << department << " |"

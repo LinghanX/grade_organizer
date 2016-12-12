@@ -123,60 +123,6 @@ CSCI333_final/fast:
 	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/build
 .PHONY : CSCI333_final/fast
 
-FileReader.o: FileReader.cpp.o
-
-.PHONY : FileReader.o
-
-# target to build an object file
-FileReader.cpp.o:
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileReader.cpp.o
-.PHONY : FileReader.cpp.o
-
-FileReader.i: FileReader.cpp.i
-
-.PHONY : FileReader.i
-
-# target to preprocess a source file
-FileReader.cpp.i:
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileReader.cpp.i
-.PHONY : FileReader.cpp.i
-
-FileReader.s: FileReader.cpp.s
-
-.PHONY : FileReader.s
-
-# target to generate assembly for a file
-FileReader.cpp.s:
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileReader.cpp.s
-.PHONY : FileReader.cpp.s
-
-FileWriter.o: FileWriter.cpp.o
-
-.PHONY : FileWriter.o
-
-# target to build an object file
-FileWriter.cpp.o:
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileWriter.cpp.o
-.PHONY : FileWriter.cpp.o
-
-FileWriter.i: FileWriter.cpp.i
-
-.PHONY : FileWriter.i
-
-# target to preprocess a source file
-FileWriter.cpp.i:
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileWriter.cpp.i
-.PHONY : FileWriter.cpp.i
-
-FileWriter.s: FileWriter.cpp.s
-
-.PHONY : FileWriter.s
-
-# target to generate assembly for a file
-FileWriter.cpp.s:
-	$(MAKE) -f CMakeFiles/CSCI333_final.dir/build.make CMakeFiles/CSCI333_final.dir/FileWriter.cpp.s
-.PHONY : FileWriter.cpp.s
-
 Student.o: Student.cpp.o
 
 .PHONY : Student.o
@@ -240,12 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CSCI333_final"
-	@echo "... FileReader.o"
-	@echo "... FileReader.i"
-	@echo "... FileReader.s"
-	@echo "... FileWriter.o"
-	@echo "... FileWriter.i"
-	@echo "... FileWriter.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"
