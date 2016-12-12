@@ -5,12 +5,8 @@
 
 class Student {
 private:
-        std::string studentName;
-        std::string studentId;
-        std::string yearInSchool;
-        std::string department;
-        double midTerm, final, hw1, hw2,
-                hw3, attendance, project;
+        std::string studentName, studentId, yearInSchool, department;
+        double midTerm, final, hw1, hw2, hw3, attendance, project;
         double calcExamAverage();
         double calcHWAverage();
         double calcOverallGrade();

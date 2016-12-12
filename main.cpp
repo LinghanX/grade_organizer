@@ -36,6 +36,11 @@ void addInformation(string fileName);
 void searchInformation(string fileName);
 
 int main() {
+    /*
+     *  To begin with, the program will ask user to input the file name. This file
+     *  acts as a data storage and saves all the data for students.
+     *
+     */
     cout << "Please enter the file name that you want to work with: " << std::endl;
     string filename;
     cin >> filename;
@@ -64,6 +69,7 @@ int main() {
     return 0;
 }
 
+//addInformation() function writes student information into the file.
 void addInformation(string fileName){
     ofstream writeFile;
     writeFile.open(fileName, ios::app);
@@ -99,17 +105,21 @@ void addInformation(string fileName){
                   << attendance << ","
                   << project << endl;
     }
-    cout << "Do you want to add another student information?(input 1 for yes)" << endl;
+    cout << "Do you want to add another student information?"
+            "(input 1 for yes, otherwise to terminate)" << endl;
     int userResponse;
     cin >> userResponse;
     if(userResponse == 1){ addInformation(fileName); }
     writeFile.close();
 }
+
+//searchInformation provides a tool for user to search CASE SENSITIVE information
 void searchInformation(string fileName){
     cout << "Please input the keyword that you want to search." << endl;
     string keyword;
     getline(cin, keyword);
     getline(cin, keyword);
+
     ifstream readFile;
     readFile.open(fileName);
     string line;
